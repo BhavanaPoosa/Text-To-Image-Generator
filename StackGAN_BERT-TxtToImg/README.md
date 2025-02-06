@@ -58,17 +58,5 @@ GAN Implementation: Torch, TensorFlow-GAN
 -📌 Memory (RAM): 16GB – 32GB recommended
 -📌 Storage: SSD recommended for faster performance
 
-### **📂 Project Structure**
-stackgan-text-to-image/
-│── data/                     # Dataset storage
-│── models/                   # Saved model checkpoints
-│── scripts/                  # Helper scripts for processing
-│── train.py                   # Training script
-│── generate.py                # Image generation script
-│── generate_bert_embeddings.py # BERT embedding generator
-│── app.py                     # Web-based UI for text input
-│── README.md                  # Project documentation
-│── requirements.txt            # Required dependencies
-
 ### **🤝 Contributing**
 Contributions are welcome! Feel free to open an issue or submit a pull request.
