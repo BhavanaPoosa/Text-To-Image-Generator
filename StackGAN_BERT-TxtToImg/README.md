@@ -16,16 +16,16 @@ The system features a **two-stage GAN architecture**, leveraging **BERT embeddin
 ## 🚀 **Installation & Setup**
 
 ### **1️⃣ Clone the Repository**
-  git clone https://github.com/your-username/stackgan-text-to-image.git
-  cd stackgan-text-to-image
+ - git clone https://github.com/your-username/stackgan-text-to-image.git
+ - cd stackgan-text-to-image
 ### **2️⃣ Set Up a Virtual Environment (Optional but Recommended)**
-  python -m venv venv
-  source venv/bin/activate  # On Linux/Mac
-  venv\Scripts\activate  # On Windows
+-  python -m venv venv
+-  source venv/bin/activate  # On Linux/Mac
+-  venv\Scripts\activate  # On Windows
 ### **3️⃣ Install Dependencies**
-  pip install -r requirements.txt
+ - pip install -r requirements.txt
 ### **4️⃣ Download the Dataset**
-  Download the CUB-200-2011 dataset from this link and place it inside the data/ directory.
+ - Download the CUB-200-2011 dataset from this link and place it inside the data/ directory.
 
 ### **5️⃣ Generate BERT Embeddings**
   Run the script to preprocess textual descriptions and generate embeddings using BERT:
@@ -45,18 +45,18 @@ The system features a **two-stage GAN architecture**, leveraging **BERT embeddin
   Then, open http://localhost:8501/ in your browser.
 
 ### **🛠 Software Requirements **
-  📌 Programming Language: Python 3.x
-  📌 Deep Learning Framework: TensorFlow / PyTorch
-  📌 Libraries:
+-📌 Programming Language: Python 3.x
+-📌 Deep Learning Framework: TensorFlow / PyTorch
+-📌 Libraries:
 NLP: Hugging Face Transformers, spaCy, NLTK
 Image Processing: OpenCV, PIL
 GAN Implementation: Torch, TensorFlow-GAN
-📌 GPU Acceleration: CUDA, cuDNN for faster training
+-📌 GPU Acceleration: CUDA, cuDNN for faster training
 
 ### **💻 Hardware Requirements **
-⚡ GPU: NVIDIA GeForce RTX series / NVIDIA A100
-📌 Memory (RAM): 16GB – 32GB recommended
-📌 Storage: SSD recommended for faster performance
+-⚡ GPU: NVIDIA GeForce RTX series / NVIDIA A100
+-📌 Memory (RAM): 16GB – 32GB recommended
+-📌 Storage: SSD recommended for faster performance
 
 ### **📂 Project Structure**
 stackgan-text-to-image/
