@@ -18,14 +18,16 @@ The system features a **two-stage GAN architecture**, leveraging **BERT embeddin
 ### **1️⃣ Clone the Repository**
  - git clone https://github.com/your-username/stackgan-text-to-image.git
  - cd stackgan-text-to-image
+
 ### **2️⃣ Set Up a Virtual Environment (Optional but Recommended)**
 -  python -m venv venv
 -  source venv/bin/activate  # On Linux/Mac
 -  venv\Scripts\activate  # On Windows
+  
 ### **3️⃣ Install Dependencies**
  - pip install -r requirements.txt
+
 ### **4️⃣ Download the Dataset**
- - Download the CUB-200-2011 dataset from this link and place it inside the data/ directory.
 
 ### **5️⃣ Generate BERT Embeddings**
   Run the script to preprocess textual descriptions and generate embeddings using BERT:
