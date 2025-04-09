@@ -37,16 +37,16 @@ The system features a **two-stage GAN architecture**, leveraging **BERT embeddin
   To train the StackGAN model, run:
   python train.py --epochs 100 --batch_size 64
 
-### **🎨 Usage **
-### **✅ Generating Images from Text Input **
+### **🎨 Usage**
+### **✅ Generating Images from Text Input**
   Once the model is trained, you can generate images using:
   python generate.py --text "A yellow bird with black wings and a short beak."
-### **✅ Using the Web Interface **
+### **✅ Using the Web Interface**
   To use a web-based UI for generating images:
   streamlit run app.py
   Then, open http://localhost:8501/ in your browser.
 
-### **🛠 Software Requirements **
+### **🛠 Software Requirements**
 -📌 Programming Language: Python 3.x
 -📌 Deep Learning Framework: TensorFlow / PyTorch
 -📌 Libraries:
@@ -55,7 +55,7 @@ Image Processing: OpenCV, PIL
 GAN Implementation: Torch, TensorFlow-GAN
 -📌 GPU Acceleration: CUDA, cuDNN for faster training
 
-### **💻 Hardware Requirements **
+### **💻 Hardware Requirements**
 -⚡ GPU: NVIDIA GeForce RTX series / NVIDIA A100
 -📌 Memory (RAM): 16GB – 32GB recommended
 -📌 Storage: SSD recommended for faster performance
